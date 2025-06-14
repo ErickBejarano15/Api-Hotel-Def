@@ -6,23 +6,23 @@ import img4 from "../../assets/SobreNosotros/Equipo/img4.webp";
 
 const equipo = [
   {
-    nombre: "Laura Palacios",
-    cargo: "Recepcionista",
+    nombre: "Ernestina Mosquera Ibargüen",
+    cargo: "Gerente",
     imagen: img1,
   },
   {
-    nombre: "Martha Gómez",
-    cargo: "Coordinadora de Limpieza",
+    nombre: "Maria Paula Hurtado Mosquera",
+    cargo: "Coordinadora de redes",
     imagen: img2,
   },
   {
-    nombre: "Jairo Torres",
-    cargo: "Guía turístico",
+    nombre: "Maria Mosquera Waldo",
+    cargo: "Administradora Financiera",
     imagen: img3,
   },
   {
-    nombre: "Yenny Palacios",
-    cargo: "Auxiliar de cocina",
+    nombre: "Juana Ines Diaz Leon",
+    cargo: "Coordinadora de Aseo y Desinfección",
     imagen: img4,
   },
 ];
@@ -36,7 +36,7 @@ const NuestroEquipo = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold text-gray-800 mb-12"
+          className="text-3xl md:text-5xl font-bold text-blue-600 mb-12"
         >
           Nuestro Equipo
         </motion.h2>
@@ -56,7 +56,7 @@ const NuestroEquipo = () => {
                 alt={persona.nombre}
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
               />
-              <h4 className="text-lg font-semibold text-gray-900">{persona.nombre}</h4>
+              <h4 className="text-lg font-semibold text-blue-600">{persona.nombre}</h4>
               <p className="text-sm text-gray-600">{persona.cargo}</p>
             </motion.div>
           ))}

@@ -42,7 +42,7 @@ const FacilidadesHotel = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-5xl font-bold text-gray-800 mb-10"
+            className="text-3xl md:text-5xl font-bold text-blue-600 mb-10"
           >
             Comodidades del Hotel
           </motion.h2>
@@ -57,7 +57,7 @@ const FacilidadesHotel = () => {
                 viewport={{ once: true }}
                 className="flex items-start gap-4"
               >
-                <div className="text-3xl text-emerald-600">{item.icon}</div>
+                <div className="text-3xl text-blue-600">{item.icon}</div>
                 <div>
                   <h4 className="font-bold text-lg text-gray-900">{item.title}</h4>
                   <p className="text-gray-700 text-sm">{item.desc}</p>

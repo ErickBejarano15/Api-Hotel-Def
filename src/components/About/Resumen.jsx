@@ -30,7 +30,7 @@ const Resumen = () => {
           viewport={{ once: true }}
           className="text-gray-800"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-blue-600">
             Bienvenido a ApartaHotel Sueños Libres Necoclí
           </h2>
           <p className="text-lg leading-relaxed mb-4">
